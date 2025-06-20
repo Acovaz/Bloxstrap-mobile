@@ -1,7 +1,4 @@
---📱 Mobile-Friendly "Bloxstrap"-like FPS Booster
--- Works in Delta Executor (mobile script executors)
 
--- Remove particles and effects
 for _, v in pairs(workspace:GetDescendants()) do
     if v:IsA("ParticleEmitter") or v:IsA("Smoke") or v:IsA("Fire") or v:IsA("Sparkles") then
         v:Destroy()
@@ -34,5 +31,3 @@ for _, v in pairs(workspace:GetDescendants()) do
         v.Transparency = 1
     end
 end
-
-print("✅ Mobile Bloxstrap FPS Boost Applied")
